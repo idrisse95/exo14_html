@@ -1,87 +1,90 @@
 body {
   margin: 0;
- 
 }
 topbar div {
   background-color: rgb(178, 42, 190);
   color: white;
 }
-topbar div button{
-    border-radius: 5px;
-    color: white;
+topbar div button {
+  border-radius: 5px;
+  color: white;
 }
 
 /* navbar */
-nav{
-    font-size: 12px;
+nav {
+  font-size: 12px;
 }
-nav table td{
-    
-    text-transform: uppercase;
-    font-weight: bold;
-    border-bottom: 1px solid rgba(217, 216, 216, 0.486);
+nav table td {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(217, 216, 216, 0.486);
 }
-nav table tr td:first-child{
-   padding: 10px 50px 20px 10px;
-    border-right: solid 1px  rgba(217, 216, 216, 0.486);
-    border-bottom: solid 1px  rgba(217, 216, 216, 0.486);
+nav table tr td:first-child {
+  padding: 10px 50px 20px 10px;
+  border-right: solid 1px rgba(217, 216, 216, 0.486);
+  border-bottom: solid 1px rgba(217, 216, 216, 0.486);
 }
-#c{
-    padding-left: 60px;
-    border-left: solid 1px  rgba(217, 216, 216, 0.486);
-    border-bottom: solid 1px  rgba(217, 216, 216, 0.486);
+#c {
+  padding-left: 60px;
+  border-left: solid 1px rgba(217, 216, 216, 0.486);
+  border-bottom: solid 1px rgba(217, 216, 216, 0.486);
 }
 
 /* main */
 
-main{
-    margin: 50px 200px;
+main {
+  margin: 50px 200px;
 }
 /* main titre */
-#titre{
-    margin-top: 100px;
-    margin-bottom: 50px;
+#titre {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
-#ligne{
-    width: 60px;
-    height: 2px;
-    background-color: blueviolet;
-    margin: 0 auto;
-    
+#ligne {
+  width: 60px;
+  height: 2px;
+  background-color: rgb(178, 42, 190);
+  margin: 0 auto;
 }
 /* main premier */
 #premierContenu {
-    margin-top: 50px;
-    margin-bottom:50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* main deuxieme */
-#deuxieme{
-    margin-bottom: 50px;
+#deuxieme {
+  margin-bottom: 50px;
 }
-section #deuxieme ul{
-    
-    color: green;
+section #deuxieme ul {
+  color: green;
+
 }
-#deuxieme ul li{
-    margin-bottom: 15px;
+#deuxieme ul li::before {
+padding-right: 5px;
+  content: "•";
+  color: rgb(178, 42, 190);
+}
+#deuxieme ul li {
+  margin-bottom: 15px;
+  list-style: none;
 }
 
 /* footer */
 
-footer{
-    color: white;
-    background-color: rgb(58, 58, 58);
+footer {
+  color: white;
+  background-color: rgb(58, 58, 58);
 }
-footer div:first-child{
-    padding-top: 50px;
+footer div:first-child {
+  padding-top: 50px;
 }
 
-footer div table td{
-    font-weight: bold;
-    padding-left: 50px;
+footer div table td {
+  font-weight: bold;
+  padding-left: 50px;
 }
-footer div#txtFoot{
-    margin-top: 70px;
-    padding-bottom: 30px;
-    color: rgba(226, 226, 226, 0.746);
+footer div#txtFoot {
+  margin-top: 70px;
+  padding-bottom: 30px;
+  color: rgba(226, 226, 226, 0.746);
 }
