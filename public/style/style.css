@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  flex-wrap: wrap;
+  font-family: cursive;
 }
 topbar div {
   background-color: rgb(178, 42, 190);
@@ -11,8 +13,35 @@ topbar div button {
 }
 
 /* navbar */
+
+#display{
+    position: relative;
+    font-weight: bold;
+    border-bottom:1px solid rgba(217, 216, 216, 0.486);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dap{
+    position: absolute;
+    right: 350px;
+    width: 1px;
+    height: 90px;
+    background-color: rgba(217, 216, 216, 0.486);
+}
+#der{
+
+    border-left: 1px solid rgba(217, 216, 216, 0.486);
+    padding-left: 150px;
+}
+
+
+nav table{
+    flex-wrap: wrap;
+}
 nav {
   font-size: 12px;
+  
 }
 nav table td {
   text-transform: uppercase;
@@ -56,6 +85,7 @@ main {
   margin-bottom: 50px;
 }
 section #deuxieme ul {
+    flex-wrap: wrap;
   color: green;
 
 }
