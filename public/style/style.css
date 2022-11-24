@@ -2,6 +2,7 @@ body {
   margin: 0;
   flex-wrap: wrap;
   font-family: cursive;
+  color: rgb(107, 107, 107);
 }
 topbar div {
   background-color: rgb(178, 42, 190);
